@@ -1,5 +1,39 @@
+.container{
+  position: static;
+  width: 900px;
+  margin: 200px;
+  margin-top: 2px;
+  padding: 100px;
+}
+
+.header{
+  padding: 60px;
+  text-align: center;
+  background-color: #63B3ED;
+  font-style: italic;
+  color: #FFFFFF;
+  border: 3px;
+  width:1550px;
+  margin-left:130px; 
+}
+
 img{
  border-radius: 50%;
+}
+
+#iphone13{
+  float: right;
+  width: 170px;
+  height: 240px;
+  border: 3px;
+  padding: 10px;
+}
+
+#iphoneside{
+  float:left;
+  width:240px;
+  height:170px;
+
 }
 
 
@@ -7,8 +41,6 @@ p{
     font-size: 18px;
     color: 2D3748;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif;
-
-
 
 }
 
@@ -22,22 +54,40 @@ h2 {
     color: #48BB78;
     }
 
-aside {
-  width: 20%;
-  padding-left: 15px;
-  margin-left: 15px;
+.sidebar{
+  position: static;
+  display: block;
   float: right;
-  font-style: italic;
-  background-color: lightgray;
+  border: 3px;
+  height:1000px;
+  margin-top:30px;
+  margin:150px;
 }
 
-header{
-text-align: center;
-background-color: #63B3ED;
-font-style: italic;
-color: #FFFFFF;
-}
+aside {
+  background-color: lightgray;
+  width: 90%;
+  padding-left: 15px;
+  margin-left: 15px;
+  height: 170px;
+  margin-top:15px;
+
+}            
+
+ #side{
+  margin:50px;
+
+
+ }                                                         
 
 h2 p {
     color: #718096;
 }
+
+footer{
+  color: #ffffff;
+  border: 3px solid #00008B;
+  background-color:#2C5282;
+}
+
+
